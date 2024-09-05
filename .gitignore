@@ -14,8 +14,6 @@ build
 .classpath
 
 .project
-.prj
-.properties
 
 .cache
 /bin/
@@ -24,3 +22,10 @@ build
 /.classpath
 .svn/
 .cache/
+
+Include/
+Profiles/
+build.gradle
+console.properties
+internship-window.prj
+settings/
