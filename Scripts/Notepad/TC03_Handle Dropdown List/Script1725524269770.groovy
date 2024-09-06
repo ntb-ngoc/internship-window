@@ -19,12 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Windows.startApplicationWithTitle('C:\\Program Files\\Notepad++\\notepad++.exe', '')
 
-Windows.click(findWindowsObject('Object Repository/Notepad/menu_Language'))
+List<String> options = ['Show Space and Tab', 'Show End of Line']
 
-String lang = "Java"
-
-Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : (lang.charAt(0))]))
-
-Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : (lang)]))
+CustomKeywords.'notepad.select.selectShowSymbol'(options)
 
 Windows.closeApplication()
