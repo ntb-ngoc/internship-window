@@ -27,11 +27,11 @@ public class select {
 		for (each in opts) {
 			println each
 			
-			Windows.click(findWindowsObject('Object Repository/Notepad/common/ele_by_name', [('name') : ('View')]))
+			Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : ('View')]))
 
-			Windows.click(findWindowsObject('Object Repository/Notepad/common/ele_by_name', [('name') : ('Show Symbol')]))
+			Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : ('Show Symbol')]))
 
-			Windows.click(findWindowsObject('Object Repository/Notepad/common/ele_by_name', [('name') : (each)]))
+			Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : (each)]))
 		}
 	}
 }

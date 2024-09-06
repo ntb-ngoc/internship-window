@@ -17,14 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Program Files\\Notepad++\\notepad++.exe', '')
+Windows.startApplicationWithTitle('C:\\Program Files\\UniKey\\UniKeyNT.exe', '')
 
-Windows.click(findWindowsObject('Object Repository/Notepad/menu_Language'))
+"Click on 'Kieu go' Combo box"
+Windows.click(findWindowsObject('Object Repository/common/ele_by_autoID', [('id') : ('1042')]))
 
-String lang = "Java"
+"Then the dropdown list appear"
 
-Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : (lang.charAt(0))]))
+"Switch to Desktop"
+Windows.switchToDesktop()
 
-Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : (lang)]))
+"Click VNI object"
+Windows.click(findWindowsObject('Object Repository/common/ele_by_name', [('name') : ('VNI')]))
+
+"Click 'Ket thuc' button"
+Windows.click(findWindowsObject('Object Repository/common/ele_by_autoID', [('id') : ('1014')]))
 
 Windows.closeApplication()
