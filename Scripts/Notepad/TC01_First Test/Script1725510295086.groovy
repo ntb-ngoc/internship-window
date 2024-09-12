@@ -34,4 +34,3 @@ Windows.setText(findWindowsObject('Object Repository/Notepad/input_Edit'), 'wint
 Windows.click(findWindowsObject('Object Repository/Notepad/btn_Save'))
 
 Windows.closeApplication()
-

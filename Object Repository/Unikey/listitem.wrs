@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>listitem</name>
+   <tag></tag>
+   <locator>ListItem</locator>
+   <locatorStrategy>TAG_NAME</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>IsInvokePatternAvailable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8642d6a5-3e82-473b-b123-4fbb411ee97e</webElementGuid>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>IsScrollItemPatternAvailable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>4f2b867e-4250-42be-8eaf-500b6d0be699</webElementGuid>
+   </properties>
+</WindowsElementEntity>
